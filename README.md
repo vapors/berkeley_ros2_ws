@@ -8,7 +8,7 @@ This documentation set was generated from the supplied `berkeley_ros2_ws_v2_5_sr
 
 ## Documents
 
-1. [`BERKELEY_ROS2_WS_V2_5_REFERENCE.md`](BERKELEY_ROS2_WS_V2_5_REFERENCE.md) — consolidated architecture and package manual.
+1. [`BERKELEY_ROS2_WS_V2_5_REFERENCE.md`](src/docs/BERKELEY_ROS2_WS_V2_5_REFERENCE.md) — consolidated architecture and package manual.
 2. [`PACKAGE_REFERENCE.md`](PACKAGE_REFERENCE.md) — package-by-package purpose, nodes, launch files, and current status.
 3. [`INTERFACES_AND_PARAMETERS.md`](INTERFACES_AND_PARAMETERS.md) — topics, services, launch switches, parameters, and script CLI options.
 4. [`COMMAND_CHEATSHEET.md`](COMMAND_CHEATSHEET.md) — copy/paste shell commands for build, bring-up, calibration, policy, identification, and standing-load work.
