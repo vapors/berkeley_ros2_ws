@@ -1,0 +1,84 @@
+limits:
+  leg_left_hip_roll_joint: [-0.698, 0.523]
+  leg_left_hip_yaw_joint: [-0.087, 1.221]
+  leg_left_hip_pitch_joint: [-1.483, 0.785]
+  leg_left_knee_pitch_joint: [0.0, 1.396]
+  leg_left_ankle_pitch_joint: [-0.383, 1.134]
+  leg_left_ankle_roll_joint: [-0.523, 0.785]
+  leg_right_hip_roll_joint: [-0.698, 0.523]
+  leg_right_hip_yaw_joint: [-0.087, 1.221]
+  leg_right_hip_pitch_joint: [-1.483, 0.785]
+  leg_right_knee_pitch_joint: [0.0, 1.396]
+  leg_right_ankle_pitch_joint: [-0.383, 1.134]
+  leg_right_ankle_roll_joint: [-0.523, 0.785]
+
+orientations:
+  leg_left_hip_roll_joint: 1
+  leg_left_hip_yaw_joint: 1
+  leg_left_hip_pitch_joint: 1   # flipped
+  leg_left_knee_pitch_joint: 1
+  leg_left_ankle_pitch_joint: 1
+  leg_left_ankle_roll_joint: 1
+  leg_right_hip_roll_joint: 1
+  leg_right_hip_yaw_joint: 1
+  leg_right_hip_pitch_joint: 1
+  leg_right_knee_pitch_joint: 1
+  leg_right_ankle_pitch_joint: 1
+  leg_right_ankle_roll_joint: 1
+
+poses:
+  neutral:
+    - 0.095
+    - -0.079
+    - 0.14
+    - 0.165
+    - 0.128
+    - 0.150
+    - 0.158
+    - 0.104
+    - -0.190
+    - 0.125
+    - 0.038
+    - 0.053
+
+  crouch:
+    - -0.153
+    - 0.024
+    - 1.196
+    - -1.736
+    - -0.489
+    - 0.116
+    - 0.277
+    - 0.065
+    - -1.374
+    - 1.876
+    - 0.602
+    - 0.036
+
+  crouch_wide:
+    - 0.196
+    - 0.033
+    - 1.196
+    - -1.736
+    - -0.487
+    - 0.116
+    - -0.162
+    - 0.108
+    - -1.375
+    - 1.876
+    - 0.599
+    - 0.035
+  
+  zero:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0

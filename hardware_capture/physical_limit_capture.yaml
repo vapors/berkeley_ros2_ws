@@ -1,0 +1,406 @@
+schema_version: 1
+robot: Berkeley-Humanoid-Lite
+capture_type: physical_joint_endpoints_raw_steps
+captured_at_utc: '2026-07-10T18:37:26.159900+00:00'
+source_servo_map: /home/scott/berkeley_ros2_ws/src/bhl_st3215_driver/config/servo_map.yaml
+source_servo_map_sha256: 7a75a69507e704c5fa2c8b6ec27c693130e14728be979a278e9c21f5f4f4f11f
+uart_device: /dev/ttyS3
+baud: 1000000
+joint_order:
+- leg_left_hip_roll_joint
+- leg_left_hip_yaw_joint
+- leg_left_hip_pitch_joint
+- leg_left_knee_pitch_joint
+- leg_left_ankle_pitch_joint
+- leg_left_ankle_roll_joint
+- leg_right_hip_roll_joint
+- leg_right_hip_yaw_joint
+- leg_right_hip_pitch_joint
+- leg_right_knee_pitch_joint
+- leg_right_ankle_pitch_joint
+- leg_right_ankle_roll_joint
+joints:
+- name: leg_left_hip_roll_joint
+  policy_index: 0
+  servo_id: 1
+  servo_sign: -1
+  joint_zero_rad: 0.0
+  training_default_rad: 0.0
+  center_step: 2041
+  expected_default_step: 2041
+  endpoint_a:
+    label: A
+    median_step: 1522.0
+    rounded_step: 1522
+    min_step: 1522
+    max_step: 1522
+    span_steps: 0
+    sample_count: 80
+    median_rad: 0.7961360289126478
+  endpoint_b:
+    label: B
+    median_step: 2504.0
+    rounded_step: 2504
+    min_step: 2504
+    max_step: 2504
+    span_steps: 0
+    sample_count: 80
+    median_rad: -0.7102331047910518
+  physical_min_step: 1522
+  physical_max_step: 2504
+  physical_lower_rad: -0.7102331047910518
+  physical_upper_rad: 0.7961360289126478
+  previous_lower_rad: -0.698
+  previous_upper_rad: 0.524
+- name: leg_left_hip_yaw_joint
+  policy_index: 1
+  servo_id: 2
+  servo_sign: -1
+  joint_zero_rad: 0.0
+  training_default_rad: 0.0
+  center_step: 2027
+  expected_default_step: 2027
+  endpoint_a:
+    label: A
+    median_step: 1597.0
+    rounded_step: 1597
+    min_step: 1597
+    max_step: 1602
+    span_steps: 5
+    sample_count: 80
+    median_rad: 0.6596117387908257
+  endpoint_b:
+    label: B
+    median_step: 2095.0
+    rounded_step: 2095
+    min_step: 2095
+    max_step: 2095
+    span_steps: 0
+    sample_count: 80
+    median_rad: -0.1043106935762236
+  physical_min_step: 1597
+  physical_max_step: 2095
+  physical_lower_rad: -0.1043106935762236
+  physical_upper_rad: 0.6596117387908257
+  previous_lower_rad: -0.087
+  previous_upper_rad: 1.221
+- name: leg_left_hip_pitch_joint
+  policy_index: 2
+  servo_id: 3
+  servo_sign: -1
+  joint_zero_rad: 0.0
+  training_default_rad: -0.1
+  center_step: 2110
+  expected_default_step: 2175
+  endpoint_a:
+    label: A
+    median_step: 3373.0
+    rounded_step: 3373
+    min_step: 3373
+    max_step: 3374
+    span_steps: 1
+    sample_count: 80
+    median_rad: -1.9374177350995647
+  endpoint_b:
+    label: B
+    median_step: 1656.0
+    rounded_step: 1656
+    min_step: 1656
+    max_step: 1657
+    span_steps: 1
+    sample_count: 80
+    median_rad: 0.6964272777000811
+  physical_min_step: 1656
+  physical_max_step: 3373
+  physical_lower_rad: -1.9374177350995647
+  physical_upper_rad: 0.6964272777000811
+  previous_lower_rad: -1.483
+  previous_upper_rad: 0.785
+- name: leg_left_knee_pitch_joint
+  policy_index: 3
+  servo_id: 4
+  servo_sign: -1
+  joint_zero_rad: 0.0
+  training_default_rad: 0.4
+  center_step: 2051
+  expected_default_step: 1790
+  endpoint_a:
+    label: A
+    median_step: 1973.0
+    rounded_step: 1973
+    min_step: 1973
+    max_step: 1973
+    span_steps: 0
+    sample_count: 80
+    median_rad: 0.11965050145508001
+  endpoint_b:
+    label: B
+    median_step: 584.0
+    rounded_step: 584
+    min_step: 584
+    max_step: 584
+    span_steps: 0
+    sample_count: 80
+    median_rad: 2.2503498158282356
+  physical_min_step: 584
+  physical_max_step: 1973
+  physical_lower_rad: 0.11965050145508001
+  physical_upper_rad: 2.2503498158282356
+  previous_lower_rad: 0.0
+  previous_upper_rad: 1.483
+- name: leg_left_ankle_pitch_joint
+  policy_index: 4
+  servo_id: 5
+  servo_sign: 1
+  joint_zero_rad: 0.0
+  training_default_rad: -0.3
+  center_step: 2024
+  expected_default_step: 1828
+  endpoint_a:
+    label: A
+    median_step: 1486.0
+    rounded_step: 1486
+    min_step: 1486
+    max_step: 1486
+    span_steps: 0
+    sample_count: 80
+    median_rad: -0.8252816638824749
+  endpoint_b:
+    label: B
+    median_step: 2497.0
+    rounded_step: 2497
+    min_step: 2497
+    max_step: 2497
+    span_steps: 0
+    sample_count: 80
+    median_rad: 0.7255729126699083
+  physical_min_step: 1486
+  physical_max_step: 2497
+  physical_lower_rad: -0.8252816638824749
+  physical_upper_rad: 0.7255729126699083
+  previous_lower_rad: -0.384
+  previous_upper_rad: 1.134
+- name: leg_left_ankle_roll_joint
+  policy_index: 5
+  servo_id: 6
+  servo_sign: 1
+  joint_zero_rad: 0.0
+  training_default_rad: 0.0
+  center_step: 2021
+  expected_default_step: 2021
+  endpoint_a:
+    label: A
+    median_step: 2626.0
+    rounded_step: 2626
+    min_step: 2626
+    max_step: 2626
+    span_steps: 0
+    sample_count: 80
+    median_rad: 0.9280583766708129
+  endpoint_b:
+    label: B
+    median_step: 1676.0
+    rounded_step: 1676
+    min_step: 1676
+    max_step: 1676
+    span_steps: 0
+    sample_count: 80
+    median_rad: -0.5292233718205462
+  physical_min_step: 1676
+  physical_max_step: 2626
+  physical_lower_rad: -0.5292233718205462
+  physical_upper_rad: 0.9280583766708129
+  previous_lower_rad: -0.524
+  previous_upper_rad: 0.785
+- name: leg_right_hip_roll_joint
+  policy_index: 6
+  servo_id: 7
+  servo_sign: 1
+  joint_zero_rad: 0.0
+  training_default_rad: 0.0
+  center_step: 2038
+  expected_default_step: 2038
+  endpoint_a:
+    label: A
+    median_step: 2467.0
+    rounded_step: 2467
+    min_step: 2467
+    max_step: 2467
+    span_steps: 0
+    sample_count: 80
+    median_rad: 0.6580777580029401
+  endpoint_b:
+    label: B
+    median_step: 1458.0
+    rounded_step: 1458
+    min_step: 1458
+    max_step: 1458
+    span_steps: 0
+    sample_count: 80
+    median_rad: -0.8897088569736719
+  physical_min_step: 1458
+  physical_max_step: 2467
+  physical_lower_rad: -0.8897088569736719
+  physical_upper_rad: 0.6580777580029401
+  previous_lower_rad: -0.698
+  previous_upper_rad: 0.524
+- name: leg_right_hip_yaw_joint
+  policy_index: 7
+  servo_id: 8
+  servo_sign: 1
+  joint_zero_rad: 0.0
+  training_default_rad: 0.0
+  center_step: 2040
+  expected_default_step: 2040
+  endpoint_a:
+    label: A
+    median_step: 2507.0
+    rounded_step: 2507
+    min_step: 2507
+    max_step: 2507
+    span_steps: 0
+    sample_count: 80
+    median_rad: 0.7163690279425944
+  endpoint_b:
+    label: B
+    median_step: 1993.0
+    rounded_step: 1993
+    min_step: 1993
+    max_step: 1993
+    span_steps: 0
+    sample_count: 80
+    median_rad: -0.07209709703062514
+  physical_min_step: 1993
+  physical_max_step: 2507
+  physical_lower_rad: -0.07209709703062514
+  physical_upper_rad: 0.7163690279425944
+  previous_lower_rad: -0.087
+  previous_upper_rad: 1.221
+- name: leg_right_hip_pitch_joint
+  policy_index: 8
+  servo_id: 9
+  servo_sign: 1
+  joint_zero_rad: 0.0
+  training_default_rad: -0.1
+  center_step: 2123
+  expected_default_step: 2058
+  endpoint_a:
+    label: A
+    median_step: 815.0
+    rounded_step: 815
+    min_step: 815
+    max_step: 815
+    span_steps: 0
+    sample_count: 80
+    median_rad: -2.0064468705544187
+  endpoint_b:
+    label: B
+    median_step: 2489.0
+    rounded_step: 2489
+    min_step: 2489
+    max_step: 2490
+    span_steps: 1
+    sample_count: 80
+    median_rad: 0.5614369683661447
+  physical_min_step: 815
+  physical_max_step: 2489
+  physical_lower_rad: -2.0064468705544187
+  physical_upper_rad: 0.5614369683661447
+  previous_lower_rad: -1.483
+  previous_upper_rad: 0.785
+- name: leg_right_knee_pitch_joint
+  policy_index: 9
+  servo_id: 10
+  servo_sign: 1
+  joint_zero_rad: 0.0
+  training_default_rad: 0.4
+  center_step: 2051
+  expected_default_step: 2312
+  endpoint_a:
+    label: A
+    median_step: 2153.0
+    rounded_step: 2153
+    min_step: 2153
+    max_step: 2153
+    span_steps: 0
+    sample_count: 80
+    median_rad: 0.1564660403643354
+  endpoint_b:
+    label: B
+    median_step: 3522.0
+    rounded_step: 3522
+    min_step: 3522
+    max_step: 3522
+    span_steps: 0
+    sample_count: 80
+    median_rad: 2.2564857389797783
+  physical_min_step: 2153
+  physical_max_step: 3522
+  physical_lower_rad: 0.1564660403643354
+  physical_upper_rad: 2.2564857389797783
+  previous_lower_rad: 0.0
+  previous_upper_rad: 1.483
+- name: leg_right_ankle_pitch_joint
+  policy_index: 10
+  servo_id: 11
+  servo_sign: -1
+  joint_zero_rad: 0.0
+  training_default_rad: -0.3
+  center_step: 2077
+  expected_default_step: 2273
+  endpoint_a:
+    label: A
+    median_step: 2638.0
+    rounded_step: 2638
+    min_step: 2638
+    max_step: 2638
+    span_steps: 0
+    sample_count: 80
+    median_rad: -0.8605632220038447
+  endpoint_b:
+    label: B
+    median_step: 1533.0
+    rounded_step: 1533
+    min_step: 1533
+    max_step: 1533
+    span_steps: 0
+    sample_count: 80
+    median_rad: 0.8344855486097889
+  physical_min_step: 1533
+  physical_max_step: 2638
+  physical_lower_rad: -0.8605632220038447
+  physical_upper_rad: 0.8344855486097889
+  previous_lower_rad: -0.384
+  previous_upper_rad: 1.134
+- name: leg_right_ankle_roll_joint
+  policy_index: 11
+  servo_id: 12
+  servo_sign: -1
+  joint_zero_rad: 0.0
+  training_default_rad: 0.0
+  center_step: 2058
+  expected_default_step: 2058
+  endpoint_a:
+    label: A
+    median_step: 1356.5
+    rounded_step: 1356
+    min_step: 1354
+    max_step: 1359
+    span_steps: 5
+    sample_count: 80
+    median_rad: 1.0760875227017772
+  endpoint_b:
+    label: B
+    median_step: 2357.0
+    rounded_step: 2357
+    min_step: 2357
+    max_step: 2357
+    span_steps: 0
+    sample_count: 80
+    median_rad: -0.4586602555778067
+  physical_min_step: 1356
+  physical_max_step: 2357
+  physical_lower_rad: -0.4586602555778067
+  physical_upper_rad: 1.0760875227017772
+  previous_lower_rad: -0.524
+  previous_upper_rad: 0.785

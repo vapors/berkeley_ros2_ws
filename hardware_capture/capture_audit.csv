@@ -1,0 +1,13 @@
+policy_index,name,physical_min_step,expected_default_step,physical_max_step,default_bracketed,nearest_endpoint_clearance_steps,requested_margin_steps,margin_keeps_default_inside
+0,leg_left_hip_roll_joint,1522,2041,2504,True,463,10,True
+1,leg_left_hip_yaw_joint,1597,2027,2095,True,68,10,True
+2,leg_left_hip_pitch_joint,1656,2175,3373,True,519,10,True
+3,leg_left_knee_pitch_joint,584,1790,1973,True,183,10,True
+4,leg_left_ankle_pitch_joint,1486,1828,2497,True,342,10,True
+5,leg_left_ankle_roll_joint,1676,2021,2626,True,345,10,True
+6,leg_right_hip_roll_joint,1458,2038,2467,True,429,10,True
+7,leg_right_hip_yaw_joint,1993,2040,2507,True,47,10,True
+8,leg_right_hip_pitch_joint,815,2058,2489,True,431,10,True
+9,leg_right_knee_pitch_joint,2153,2312,3522,True,159,10,True
+10,leg_right_ankle_pitch_joint,1533,2273,2638,True,365,10,True
+11,leg_right_ankle_roll_joint,1356,2058,2357,True,299,10,True

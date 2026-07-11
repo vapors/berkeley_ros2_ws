@@ -1,0 +1,17 @@
+Berkeley Humanoid Lite physical-limit capture audit
+========================================================================
+
+idx  joint                               raw_min  default  raw_max  bracket  clearance  margin_ok
+----------------------------------------------------------------------------------------------------------------
+  0  leg_left_hip_roll_joint                 1522     2041     2504     True        463       True
+  1  leg_left_hip_yaw_joint                  1597     2027     2095     True         68       True
+  2  leg_left_hip_pitch_joint                1656     2175     3373     True        519       True
+  3  leg_left_knee_pitch_joint                584     1790     1973     True        183       True
+  4  leg_left_ankle_pitch_joint              1486     1828     2497     True        342       True
+  5  leg_left_ankle_roll_joint               1676     2021     2626     True        345       True
+  6  leg_right_hip_roll_joint                1458     2038     2467     True        429       True
+  7  leg_right_hip_yaw_joint                 1993     2040     2507     True         47       True
+  8  leg_right_hip_pitch_joint                815     2058     2489     True        431       True
+  9  leg_right_knee_pitch_joint              2153     2312     3522     True        159       True
+ 10  leg_right_ankle_pitch_joint             1533     2273     2638     True        365       True
+ 11  leg_right_ankle_roll_joint              1356     2058     2357     True        299       True

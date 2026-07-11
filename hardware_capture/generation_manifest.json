@@ -1,0 +1,10 @@
+{
+  "generated_at_utc": "2026-07-10T18:37:26.273466+00:00",
+  "margin_steps": 10,
+  "files": {
+    "authoritative_hardware_contract.yaml": "8f1c769b3afaa336adb7ec3809e8b23313d334dc1419b4dc3e80acee206cb487",
+    "authoritative_hardware_contract.csv": "c3430ef0829323841a0fd0ae0e0688e5b513eb084a8498bb554be5543cf5f805",
+    "hardware_contract.generated.py": "474eda6f0265729a1bc7a7f6272d6282533bba2b7e55fbe07d4b1a500b367735",
+    "servo_map.measured_limits.generated.yaml": "56176642d65b71c34f29a9cf53e54b7c6cb0b4c318d78d591c8708c73d73229d"
+  }
+}
